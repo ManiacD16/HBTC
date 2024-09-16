@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+/* MyListComponent.css */
+.custom-dash-list li {
+  position: relative;
+  padding-left: 1.5rem; /* Adjust padding to make room for the dash */
+}
+
+.custom-dash-list li::before {
+  content: '-'; /* The dash to replace the bullet */
+  position: absolute;
+  left: 0; /* Position it to the left of the list item */
+  color: #333; /* Customize color as needed */
+  font-size: 1.25rem; /* Customize size as needed */
+  line-height: 1.25rem; /* Align vertically with text */
+}
