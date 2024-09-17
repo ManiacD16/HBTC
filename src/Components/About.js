@@ -25,12 +25,37 @@ const AboutHbtc = () => {
 
         {/* Right Section - Image */}
         <div className="flex-1 flex items-center justify-center">
-          <img
+          <div className="relative  rounded-full">
+            <div className=" overflow-hidden h-60 w-60 flex items-center justify-center">
+              {[...Array(200)].map((_, i) => (
+                <div
+                  key={i}
+                  className="absolute rounded-full bg-yellow-400 opacity-0 animate-twinkle"
+                  style={{
+                    width: `${Math.random() * 4 + 1}px`,
+                    height: `${Math.random() * 4 + 1}px`,
+                    left: `${Math.random() * 90}%`,
+                    top: `${Math.random() * 90}%`,
+                    animationDelay: `${Math.random() * 4}s`,
+                  }}
+                />
+              ))}
+              <img
+                src={Logo}
+                alt="HBTC logo"
+                className="w-40 h-40 object-contain z-10 relative flex items-center mr-4 mb-4 -mt-4"
+              />
+            </div>
+            <div className=" relative right-2 -bottom-2">
+              <div className="relative -top-20 w-20 h-8  left-20 mr-40 rounded-full bg-gradient-to-t from-transparent via-yellow-500 to-transparent opacity-100 blur-md"></div>
+            </div>
+          </div>
+        </div>
+        {/* <img
             src={Logo}
             alt="HBTC logo"
             className="md:w-60 md:h-60 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl object-contain"
-          />
-        </div>
+          /> */}
       </div>
     </div>
   );

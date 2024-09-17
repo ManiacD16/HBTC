@@ -39,10 +39,8 @@ const CircularProgress = ({ percentage }) => {
         <span className="text-4xl font-bold text-yellow-400">
           {percentage}%
         </span>
-        <span className="text-sm text-center text-white">
-          Available for Community
-          <br />
-          as a Reward
+        <span className="text-md text-center text-white">
+          is reserved in Storage.
         </span>
       </div>
     </div>
@@ -68,7 +66,7 @@ export default function Tokenomics() {
                 <h2 className="text-xl sm:text-2xl font-semibold text-yellow-400 mb-1">
                   Token Name
                 </h2>
-                <p className="text-base sm:text-lg">Harvest BTC ($HBTC)</p>
+                <p className="text-base sm:text-lg">Harvest BTC (HBTC)</p>
               </div>
               <div className="p-4 rounded-lg md:ml-8">
                 <h2 className="text-xl sm:text-2xl font-semibold text-yellow-400 mb-1">
@@ -102,7 +100,7 @@ export default function Tokenomics() {
               <ul className="list-disc list-inside space-y-2">
                 <li>
                   <span className="font-semibold">Liquidity Pool: </span>
-                  <span className="mt-1 block">
+                  <span className="mt-1">
                     10% of all stake and registration fees go directly into the
                     liquidity pool, creating stability and support for HBTC's
                     market value.
@@ -120,7 +118,7 @@ export default function Tokenomics() {
             </div>
           </div>
           <div className="flex justify-center items-center">
-            <CircularProgress percentage={75} />
+            <CircularProgress percentage={90} />
           </div>
         </div>
       </div>

@@ -18,7 +18,7 @@ const HBTCLandingPage = () => {
   };
 
   return (
-    <div className="min-h-screen relative">
+    <div className=" min-h-screen relative">
       {/* Background Images */}
       <div className="absolute inset-0 overflow-hidden">
         <img

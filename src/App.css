@@ -51,3 +51,19 @@
   font-size: 1.25rem; /* Customize size as needed */
   line-height: 1.25rem; /* Align vertically with text */
 }
+
+@keyframes twinkle {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.animate-twinkle {
+  animation: twinkle 1.5s infinite;
+}
