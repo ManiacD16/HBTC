@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "./Images/About.png";
+import Logo from "./Images/Logo.png";
 
 const AboutHbtc = () => {
   return (
