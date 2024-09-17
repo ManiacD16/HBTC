@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Logo from "../Components/Images/Logo.svg";
-import Sky from "./Images/Sky.png";
+import Logo from "../Components/Images/Logo.png";
+import Sky from "./Images/Sky.svg";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
 
@@ -31,12 +31,12 @@ const HBTCLandingPage = () => {
 
       {/* Navigation */}
       <nav className="bg-transparent relative z-30">
-        <div className="container mx-auto px-4 py-1 flex justify-between items-center flex-wrap">
+        <div className="container mx-auto px-4 py-1 flex justify-between items-center flex-wrap pt-3">
           <div className="flex items-center flex-shrink-0 md:ml-20">
             <img
               src={Logo}
               alt="HBTC Logo"
-              className="w-12 h-12 md:w-20 md:h-20 rounded-full mr-2 "
+              className="w-8 h-8 md:w-10 md:h-10 rounded-full mr-2 "
             />
             <span className="text-2xl font-bold text-gray-800">HBTC</span>
           </div>
