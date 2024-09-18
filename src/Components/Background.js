@@ -51,7 +51,7 @@ const Background = () => {
         <img
           src={Sun}
           alt="Sun"
-          className="absolute bottom-0 left-1/2 transform -translate-x-1/2 lg:w-200 md:w-150 sm:w-100 h-auto object-contain z-15"
+          className="absolute bottom-5 left-1/2 transform -translate-x-1/2 lg:w-200 md:w-150 sm:w-100 h-auto object-contain z-15"
         />
         <img
           src={Logo}
