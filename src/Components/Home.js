@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import Logo from "../Components/Images/Logo.png";
-import Sky from "./Images/Sky.svg";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
+import Background from "./Background";
+// import { useAppKit } from "@reown/appkit/react";
 
 const HBTCLandingPage = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
+  // const { open } = useAppKit();
 
   const toggleNav = () => setIsNavOpen(!isNavOpen);
 
@@ -20,13 +22,8 @@ const HBTCLandingPage = () => {
   return (
     <div className=" min-h-screen relative">
       {/* Background Images */}
-      <div className="absolute inset-0 overflow-hidden">
-        <img
-          src={Sky}
-          alt="Sky"
-          className="absolute inset-0 w-full h-full object-cover"
-          style={{ zIndex: 0 }} // Lowest z-index
-        />
+      <div className="absolute inset-0 overflow-hidden z-0">
+        <Background />
       </div>
 
       {/* Navigation */}
@@ -126,6 +123,9 @@ const HBTCLandingPage = () => {
                 Wallet
               </button>
             </li>
+            {/* <li>
+              <button onClick={() => open()}>Open Connect Modal</button>
+            </li> */}
           </ul>
         </div>
       </nav>

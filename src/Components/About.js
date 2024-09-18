@@ -43,7 +43,7 @@ const AboutHbtc = () => {
               <img
                 src={Logo}
                 alt="HBTC logo"
-                className="w-40 h-40 object-contain z-10 relative flex items-center mr-4 mb-4 -mt-4"
+                className="w-40 h-40 object-contain z-10 relative flex items-center mr-4 mb-4 -mt-4 bg-transparent"
               />
             </div>
             <div className=" relative right-2 -bottom-2">
