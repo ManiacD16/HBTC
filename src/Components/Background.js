@@ -1,6 +1,6 @@
 import Back from "./Images/background.svg";
 import Clouds from "./Images/clouds.svg";
-import Logo from "./Images/Logo.png";
+import Logo from "./Images/Logo.svg";
 import Mountain from "./Images/mountains.svg";
 import Sun from "./Images/sun-glow.svg";
 import { useRef, useEffect, useState } from "react";
