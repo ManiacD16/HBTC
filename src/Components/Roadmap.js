@@ -14,11 +14,11 @@ export default function Roadmap() {
       date: "END OF Q1 2024",
       title: "HBTC Launch",
       description:
-        "Listing on Uniswap DEX LP assets lock Expand core team Staking Pre-launch marketing campaigns. Free Airdrop Start.",
+        "Listing on Uniswap DEX LP assets lock Expand core team Farming Pre-launch marketing campaigns. Free Airdrop Start.",
     },
     {
       date: "END OF Q2 2024",
-      title: "Staking Program",
+      title: "Farming Program",
       description:
         "Awareness marketing & PR Expanding global presence awareness Listing on CoinMarketCap Growing international community.",
     },

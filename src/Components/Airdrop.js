@@ -33,8 +33,8 @@ export default function AirdropPage() {
                   Instant Airdrop
                 </h3>
                 <p className="text-lg">
-                  Upon registering and staking just $50, you'll receive $100
-                  worth of HBTC as an airdrop—right in your wallet.
+                  Upon registering and farming just $50, you'll receive $100
+                  worth of HBTC as an airdrop-right in your wallet.
                 </p>
               </div>
             </div>

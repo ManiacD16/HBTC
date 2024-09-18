@@ -14,7 +14,7 @@ const AboutHbtc = () => {
             Step into the future of decentralized finance with Harvest BTC
             (HBTC), where every stake is a step toward growing your wealth.
             Designed for the modern crypto farmer, HBTC offers a seamless blend
-            of staking rewards, direct income, and multiple earning
+            of farming rewards, direct income, and multiple earning
             opportunities. Whether you're a seasoned trader or new to the crypto
             space, HBTC provides a robust platform for multiplying your assets
             and achieving financial freedom. Backed by the security and speed of
