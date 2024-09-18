@@ -9,7 +9,7 @@ export default function AirdropPage() {
     >
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          <div className="space-y-6">
+          <div className="space-y-6 p-6">
             <h1 className="text-5xl font-bold mb-4">Airdrop</h1>
             <h2 className="text-3xl font-bold text-yellow-400">
               Your $100 Kickstart to Crypto Farming
