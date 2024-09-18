@@ -4,20 +4,28 @@ import { Plus } from "lucide-react";
 const features = [
   {
     title: "Ownership Renounced",
-    content: "Details about ownership renouncement...",
+    content:
+      "HBTC has renounced ownership, granting full control to the community. This empowers stakeholders to collaboratively shape the project’s future in a decentralized manner.",
   },
   {
     title: "Liquidity Locked for Trust",
-    content: "Information on liquidity locking...",
+    content:
+      "To enhance security and confidence, liquidity for HBTC has been locked. This ensures that funds are safeguarded and unavailable for withdrawal, promoting trust within the community and stabilizing the market.",
   },
   {
     title: "No Developer Wallets",
-    content: "Explanation of no developer wallets...",
+    content:
+      "HBTC operates without developer wallets, ensuring that no team members hold special privileges or access to funds. This commitment to transparency fosters community trust and promotes a fair distribution of resources.",
   },
-  { title: "Earn, Don't Buy", content: "Description of earning mechanism..." },
+  {
+    title: "Earn, Don't Buy",
+    content:
+      "HBTC enables users to earn tokens through participation instead of purchasing. This encourages engagement and makes the ecosystem accessible to all.",
+  },
   {
     title: "Freedom to Sell Anytime",
-    content: "Details about selling freedom...",
+    content:
+      "HBTC grants users the freedom to sell their tokens at any time without restrictions. This flexibility empowers individuals to manage their investments according to their needs.",
   },
 ];
 
